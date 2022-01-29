@@ -42,3 +42,14 @@ Then look for the file :
 - /src/main/resources/accountsdb
 - accountsdb.sql file is a mysql dump file.we have to import this dump to mysql db server
 - > mysql -u <user_name> -p accounts < accountsdb.sql
+
+# Screenshots 
+
+![Screenshot (316)](https://user-images.githubusercontent.com/68735863/151653954-b9579e42-af3d-4ef9-a752-f9717d16ccc0.png)
+![Screenshot (317)](https://user-images.githubusercontent.com/68735863/151653962-5b1aba5e-8e7b-4fbf-93e6-170d724b4c9d.png)
+![Screenshot (318)](https://user-images.githubusercontent.com/68735863/151653969-560502a4-4a93-458f-8dc8-543b803b10bf.png)
+![Screenshot (319)](https://user-images.githubusercontent.com/68735863/151653976-e20787a0-a28f-45a8-afaf-89e6c53756c3.png)
+![Screenshot (320)](https://user-images.githubusercontent.com/68735863/151654008-78f4f933-c894-41b9-aedd-ab19aa85d7fa.png)
+![Screenshot (321)](https://user-images.githubusercontent.com/68735863/151654011-59a61bf2-5a6e-4cc9-b1f7-1096bc78a124.png)
+![Screenshot (322)](https://user-images.githubusercontent.com/68735863/151653940-d76cefdc-e675-46da-9942-f15a045f4310.png)
+
