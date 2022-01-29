@@ -1,10 +1,10 @@
-# Prerequisites
-#
-- JDK 1.8 or later
-- Maven 3 or later
-- MySQL 5.6 or later
+A demo application deployed on AWS with the help of EC2 instances, Elastic Load Balancer, Route 53, Auto Scaling Groups
 
-# Technologies 
+# Architecture 
+
+![Screenshot (315)](https://user-images.githubusercontent.com/68735863/151652213-fd3b50c8-a8c4-4e86-8465-b2249e61afc8.png)
+
+# Technologies Used
 - Spring MVC
 - Spring Security
 - Spring Data JPA
