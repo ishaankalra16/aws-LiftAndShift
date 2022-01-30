@@ -24,7 +24,8 @@ Services:
 
 # Architecture 
 
-![Screenshot (315)](https://user-images.githubusercontent.com/68735863/151652213-fd3b50c8-a8c4-4e86-8465-b2249e61afc8.png)
+<img width="960" alt="Screenshot (315)" src="https://user-images.githubusercontent.com/68735863/151694666-99092990-eee6-4277-bd09-34687ec83151.png">
+
 
 Users can view the application with the help of a URL. This URL will then be pointed to an endpoint, whose entry will be made in the DNS configuration of the domain. This endpoint will be used to connect to the Application load balancer using HTTPS protocol. The certificate for the same will be mentioned in the Amazon Certificate Manager. The load balancer will be configured with a security group that will only allow HTTPS traffic. With the help of Route 53 in AWS, the requests made to the load balancer endpoint will be routed to the tomcat instances. The instances running tomcat services for the project will be managed by the Auto Scaling Group and will run on a separate security group that will only allow traffic only on port 8080 from the load balancer. This application needs backend services and their backend server IP address will be mentioned in Route 53 private DNS. Also, the backend services will have a separate security group that will allow traffic within themselves and from tomcat instances on the desired ports of the services.  
 
@@ -45,11 +46,17 @@ Then look for the file :
 
 # Screenshots 
 
-![Screenshot (316)](https://user-images.githubusercontent.com/68735863/151653954-b9579e42-af3d-4ef9-a752-f9717d16ccc0.png)
-![Screenshot (317)](https://user-images.githubusercontent.com/68735863/151653962-5b1aba5e-8e7b-4fbf-93e6-170d724b4c9d.png)
-![Screenshot (318)](https://user-images.githubusercontent.com/68735863/151653969-560502a4-4a93-458f-8dc8-543b803b10bf.png)
-![Screenshot (319)](https://user-images.githubusercontent.com/68735863/151653976-e20787a0-a28f-45a8-afaf-89e6c53756c3.png)
-![Screenshot (320)](https://user-images.githubusercontent.com/68735863/151654008-78f4f933-c894-41b9-aedd-ab19aa85d7fa.png)
-![Screenshot (321)](https://user-images.githubusercontent.com/68735863/151654011-59a61bf2-5a6e-4cc9-b1f7-1096bc78a124.png)
-![Screenshot (322)](https://user-images.githubusercontent.com/68735863/151653940-d76cefdc-e675-46da-9942-f15a045f4310.png)
+![Screenshot (316)](https://user-images.githubusercontent.com/68735863/151694676-3c1542bb-732a-43f5-ae15-671feb1f01df.png)
+
+![Screenshot (317)](https://user-images.githubusercontent.com/68735863/151694681-1b578e77-57df-42f1-8906-8f69b19d0ced.png)
+
+![Screenshot (318)](https://user-images.githubusercontent.com/68735863/151694692-e8298d62-1b7d-487f-9c32-82540920989e.png)
+
+![Screenshot (319)](https://user-images.githubusercontent.com/68735863/151694697-9e39f0e1-8194-4d66-bae8-afd71c35c054.png)
+
+![Screenshot (320)](https://user-images.githubusercontent.com/68735863/151694706-b06f90fd-55c1-41cd-b339-387c812cc434.png)
+
+![Screenshot (321)](https://user-images.githubusercontent.com/68735863/151694713-bcbc79bc-c7db-4817-a997-764051a9a263.png)
+
+![Screenshot (322)](https://user-images.githubusercontent.com/68735863/151694722-b0f1eb25-ed6d-4689-a5d2-774fdaf9b631.png)
 
